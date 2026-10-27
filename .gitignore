@@ -1,0 +1,17 @@
+# Generated application and packaging
+/*.app/
+/dist/
+/build/
+*.dSYM/
+
+# Local diagnostics, copied app internals, and runtime data
+/work/
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+
+# Never publish local configuration or credentials
+.env
+.env.*
+!.env.example
